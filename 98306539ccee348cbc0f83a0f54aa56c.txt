@@ -1,0 +1,7 @@
+class Calc
+{
+    public function Plus($a, $b) { return $a + $b; }
+}
+
+$calc = new Calc();
+echo calculate(1,3, [$calc, 'Plus']);

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "swiftmailer/swiftmailer": "5.1.*@dev",
+        "doctrine/cache": "*",
+        "illuminate/filesystem": "4.1.*@dev" 
+    }
+}
