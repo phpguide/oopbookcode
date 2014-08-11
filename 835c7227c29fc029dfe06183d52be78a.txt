@@ -1,4 +1,0 @@
-O:4:"Book":1:
-{
-    s:5:"title";s:23:"OOP in PHP from Scratch";
-}

@@ -1,2 +1,0 @@
-
-echo 'followed by text';

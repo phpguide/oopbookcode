@@ -1,6 +1,0 @@
-push %rbp
-mov  %rsp,%rbp
-movl $0x1,-0x4(%rbp)
-mov  0x177(%rip),%eax
-add  $0x1,%eax
-mov  %eax,0x16c(%rip)
