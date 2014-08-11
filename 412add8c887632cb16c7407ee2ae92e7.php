@@ -1,0 +1,1 @@
+mail("your@email.com", $subject, $text);
