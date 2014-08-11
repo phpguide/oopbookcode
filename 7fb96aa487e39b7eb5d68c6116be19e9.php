@@ -1,0 +1,2 @@
+
+echo 'followed by link';
