@@ -1,1 +1,0 @@
-$user = $this->userRepository->findUserByEmail($mail);
