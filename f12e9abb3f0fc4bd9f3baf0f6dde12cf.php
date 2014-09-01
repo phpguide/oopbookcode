@@ -1,0 +1,1 @@
+public PDOStatement PDO::query ( string $statement )

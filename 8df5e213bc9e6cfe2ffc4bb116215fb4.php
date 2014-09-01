@@ -1,0 +1,1 @@
+mail($to, EmailSender::EMAIL_TITLE, $text, EmailSender::EMAIL_FROM);

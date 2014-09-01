@@ -1,0 +1,1 @@
+$x->nonExistentMethod(1, 2, 3);
