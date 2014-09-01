@@ -1,1 +1,0 @@
-echo EmailSender::EMAIL_TITLE;

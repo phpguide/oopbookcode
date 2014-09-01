@@ -1,1 +1,0 @@
-public int PDO::exec ( string $statement )
