@@ -7,4 +7,4 @@ try {
     $dsn = "mysql:host=localhost;dbname=db1;charset=utf8";
     $conn = new \PDO($dsn, "user", "pass", $options);
 }
-catch(\PDOException $ex) {}
+catch(\PDOException $e) { ... }

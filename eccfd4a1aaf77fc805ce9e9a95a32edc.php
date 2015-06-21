@@ -1,1 +1,0 @@
-$x = \MyWebSite\EmailSystem\Incoming\Email();
