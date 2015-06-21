@@ -24,21 +24,21 @@ class Autoloader
 		$this->vendorDir = $directory;
 	}
 
-	private function load($struct)
+	private function load($type)
 	{
 		if (false === ($pos = strrpos($prefix, '\\')))
-			throw new \InvalidArgumentException ("'$struct' does not belong to a namespace");
+			throw new \InvalidArgumentException ("'$type' does not belong to a namespace");
 
-		$namespace = mb_substr($struct, 0, $pos);
+		$namespace = mb_substr($type, 0, $pos);
 
 		$dir = isset($this->map[$namespace])
 			? $this->map[$namespace]
 			: $this->vendorDir;
 
-		$this->loadFromDir($dir, $struct);
+		$this->loadFromDir($dir, $type);
 	}
 
-	private function loadFromDir($dir, $struct) {
+	private function loadFromDir($dir, $type) {
 		// same as you did before
 	}
 }
