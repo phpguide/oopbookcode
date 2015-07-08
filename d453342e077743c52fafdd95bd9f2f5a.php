@@ -1,0 +1,1 @@
+foreach($iterator as $key => $value);
